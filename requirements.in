@@ -3,6 +3,5 @@ numpy
 pandas
 xarray
 plotly
-Cartopy
 Shapely
 Fiona

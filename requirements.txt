@@ -4,7 +4,6 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-cartopy==0.14.0
 certifi==2017.11.5        # via requests
 chardet==3.0.4            # via requests
 click-plugins==1.0.3      # via fiona
@@ -24,12 +23,11 @@ numpy==1.13.3
 pandas==0.21.0
 plotly==2.2.2
 pyparsing==2.2.0          # via matplotlib
-pyshp==1.2.12             # via cartopy
 python-dateutil==2.6.1    # via matplotlib, pandas
 pytz==2017.3              # via matplotlib, pandas, plotly
 requests==2.18.4          # via plotly
 shapely==1.6.2.post1
-six==1.11.0               # via cartopy, cycler, fiona, matplotlib, munch, plotly, python-dateutil, traitlets
+six==1.11.0               # via cycler, fiona, matplotlib, munch, plotly, python-dateutil, traitlets
 traitlets==4.3.2          # via jupyter-core, nbformat
 urllib3==1.22             # via requests
 xarray==0.10.0
