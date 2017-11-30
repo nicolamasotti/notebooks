@@ -10,6 +10,8 @@ out/**/*
 # Plain text data file
 *.txt
 
+!requirements.txt
+
 # Ignore sandbox
 sandbox/**/*
 
